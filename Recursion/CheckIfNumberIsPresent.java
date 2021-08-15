@@ -1,11 +1,4 @@
-/**
- * 
- */
 
-/**
- * @author Ankita Saha
- *
- */
 import java.util.Scanner;
 public class CheckIfNumberIsPresent {
 
@@ -25,7 +18,7 @@ public class CheckIfNumberIsPresent {
 
 	    public static boolean checkNumber(int input[], int x) {
 
-	    if(input.length<=1)
+	    if(input.length<=1)//Base Case
 	    {
 	        if(input[0] == x)
 	        return true;
